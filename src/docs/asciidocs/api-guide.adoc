@@ -1,0 +1,22 @@
+= my api doc 
+ Author Name <author@email.org>
+ v2.0, 2019-03-22
+:toc:
+documents my api of this silly rest service
+
+== retrieve-all-users
+include::{snippets}/retrieve-all-users/curl-request.adoc[]
+include::{snippets}/retrieve-all-users/http-response.adoc[]
+
+== retrieve-user
+include::{snippets}/retrieve-user/curl-request.adoc[]
+include::{snippets}/retrieve-user/path-parameters.adoc[]
+include::{snippets}/retrieve-user/http-response.adoc[]
+
+== actuator endpoints
+include::{snippets}/actuator/curl-request.adoc[]
+include::{snippets}/actuator/http-response.adoc[]
+
+== actuator beans in context
+include::{snippets}/actuator-beans/curl-request.adoc[]
+include::{snippets}/actuator-beans/http-response.adoc[]
