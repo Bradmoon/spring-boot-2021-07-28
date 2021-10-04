@@ -2,4 +2,4 @@
 - java 11
 - access another rest service to get its data
 - uses swagger
-- also added spring docs
+- added spring docs in this version
